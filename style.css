@@ -1,0 +1,136 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  
+  .container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+  }
+  
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  
+  .password-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  #password {
+    width: 70%;
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #333;
+  }
+  
+  
+  #copyBtn {
+    background-color: #ff6b6b;
+    border: none;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  #copyBtn:hover {
+    background-color: #ff5252;
+  }
+  
+ 
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+
+  label {
+    display: block;
+    margin: 10px 0;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+  }
+  
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  label input[type="checkbox"] + label {
+    margin-right: 5px;
+  }
+  
+  
+  #generateBtn {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  #generateBtn:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  footer {
+    margin-top: 30px;
+    font-size: 0.85rem;
+    color: #888;
+  }
+
+ 
+input[type="number"] {
+    width: 50%; 
+    padding: 8px; 
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  
+  
